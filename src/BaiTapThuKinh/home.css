@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    position: relative;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.wrapper {
+    background-image: url("../../public/glassesImage/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.header {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #000000c9;
+    position: relative;
+}
+
+.header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+.item-detail {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card {
+    overflow: hidden;
+    position: relative;
+}
+
+.card-wrapper {
+    background-image: url("../../public/glassesImage/model.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+}
+
+.list {
+    margin-top: 40px;
+    position: relative;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+.glasses-item {
+    cursor: pointer;
+}
+
+.card-image img {
+    position: absolute;
+    top: 25%;
+    left: 19%;
+    width: 126px;
+    height: 40px;
+    opacity: 0.9;
+}
